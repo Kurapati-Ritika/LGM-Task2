@@ -1,0 +1,43 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #65f3f8;
+  background-size: 5000% 5000%;
+  background-repeat: no-repeat;
+  animation: gradient 15s ease infinite;
+}
+h3{
+  margin-top: -70px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 45px;
+  text-align: center;
+  color: #fff;
+}
+.logo {
+  margin-top: -10px;
+  height: 100px;
+}
+button {
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(255, 196, 0);
+  color: #fff;
+  padding: 10px 24px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: -20px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #fff;
+  border: 2px solid rgb(255, 196, 0);
+  color: #000;
+}
+
+button:focus {
+outline: #000;
+}

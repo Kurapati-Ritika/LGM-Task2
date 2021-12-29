@@ -1,0 +1,58 @@
+
+nav {
+  color: rgb(18, 223, 238);
+  background-attachment: fixed;
+  background-color: indigo;
+  height: 180px;
+}
+.row{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+  
+.avatar {
+  margin-bottom: 10px;
+  border-radius: 50%;
+  border: 3px solid rgb(249, 248, 250);
+  box-shadow: #000;
+}
+  
+#main {
+  padding: 15px 50px;
+  margin: 50px auto;
+}
+  
+#main img {
+  animation-delay: 5s;
+}
+  
+.profile {
+  width: 300px;
+  margin: 50px 50px;
+  text-align: center; 
+  padding: 50px;
+  border-style: solid;
+  box-shadow: 20px 20px 50px rgba(107, 106, 106, 0.425);
+}
+  
+.profile:hover {
+  transition: 100ms;
+  background: rgb(248, 209, 81);
+  transform: translateY(-10px);
+}
+.team-id{
+  font-size: 25px;
+  font-weight: 700;
+}
+.name {
+  color: rgb(5, 15, 1);
+  font-size: 20px;
+  font-weight: bold;
+}  
+.email {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 500;
+  overflow-wrap: break-word;
+}
